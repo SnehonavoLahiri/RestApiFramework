@@ -75,7 +75,7 @@ delReq = given().spec(baseRequest());
 		status = delReq.body(DeletePlacePayload.del(place_id))
 	                 .when().delete(requiredApi)
 	                 .then().spec(baseResponse()).extract().response().as(Status.class);
-		log.info("Delete Operation Successful-->STATUS = "+status.getStatus());
+		log.info("Delete Operation Successful always-->STATUS = "+status.getStatus());
 
 	} else if (api.equalsIgnoreCase("getplace")) {
 	    ms = allReq.queryParam("place_id", place_id).when().get(requiredApi)
