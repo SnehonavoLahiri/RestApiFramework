@@ -46,7 +46,7 @@ public class utils {
 	}
 	
 	public static String getBaseUrl(String url) throws IOException {
-		FileInputStream inputFile = new FileInputStream("C:\\Users\\BUBAN LAHIRI\\eclipse-workspace\\ApiFramework\\src\\test\\java\\resources\\application.properties");
+		FileInputStream inputFile = new FileInputStream("C:\\Users\\BUBAN LAHIRI\\eclipse-workspace\\RestApiFramework\\src\\test\\java\\resources\\application.properties");
 		Properties prop = new Properties();
 		prop.load(inputFile);
 		String baseUrl = prop.getProperty(url);
