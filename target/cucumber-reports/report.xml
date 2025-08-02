@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="25.573" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-01T19:32:39.297051600Z">
+<testcase classname="Perform and Validate Add/Delete/Get Place API working" name="Perform AddPlace API to add places--&gt;Perform DeletePlace API--&gt;GetPlace of that Deleted-API - #1.1" time="8.788">
+<system-out><![CDATA[
+Given User has Add place API with "Snehonavo" "8583037615" "Serampore" -38.383494 33.427362 "http://google.com" "French-IN".passed
+When User call "AddPlace" with http "POST" request method...................passed
+Then "status" comes as "OK".................................................passed
+When User call "DeletePlace" with http "DELETE" request method..............passed
+Then "status" comes as "OK".................................................passed
+When User call "GetPlace" with http "GET" request method....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Perform and Validate Add/Delete/Get Place API working" name="Perform AddPlace API to add places--&gt;Perform DeletePlace API--&gt;GetPlace of that Deleted-API - #1.2" time="5.181">
+<system-out><![CDATA[
+Given User has Add place API with "Buban" "8697437229" "Rishra" -38.383492 33.427364 "http://youtube.com" "Russian-IN".passed
+When User call "AddPlace" with http "POST" request method...................passed
+Then "status" comes as "OK".................................................passed
+When User call "DeletePlace" with http "DELETE" request method..............passed
+Then "status" comes as "OK".................................................passed
+When User call "GetPlace" with http "GET" request method....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Perform and Validate Add/Delete/Get Place API working" name="Perform AddPlace API to add places--&gt;Perform DeletePlace API--&gt;GetPlace of that Deleted-API - #1.3" time="5.232">
+<system-out><![CDATA[
+Given User has Add place API with "Rohan" "8697437329" "Mahesh" -38.383492 33.427364 "http://youtube.com" "Spanish-IN".passed
+When User call "AddPlace" with http "POST" request method...................passed
+Then "status" comes as "OK".................................................passed
+When User call "DeletePlace" with http "DELETE" request method..............passed
+Then "status" comes as "OK".................................................passed
+When User call "GetPlace" with http "GET" request method....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Perform and Validate Add/Delete/Get Place API working" name="Perform AddPlace API to add places--&gt;Perform DeletePlace API--&gt;GetPlace of that Deleted-API - #1.4" time="6.14">
+<system-out><![CDATA[
+Given User has Add place API with "Tanmoy" "8697437129" "Kolkata" -38.323492 33.426364 "http://youtube.com" "Germany-IN".passed
+When User call "AddPlace" with http "POST" request method...................passed
+Then "status" comes as "OK".................................................passed
+When User call "DeletePlace" with http "DELETE" request method..............passed
+Then "status" comes as "OK".................................................passed
+When User call "GetPlace" with http "GET" request method....................passed
+]]></system-out>
+</testcase>
+</testsuite>
