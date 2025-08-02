@@ -86,6 +86,7 @@ delReq = given().spec(baseRequest());
 	    ress = allReq.when().put(requiredApi)
 	                 .then().spec(baseResponse()).extract().response();
 	}
+	log.info("hiiiiiiiii");
 }
 
 
