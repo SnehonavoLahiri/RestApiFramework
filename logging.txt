@@ -1,0 +1,484 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Snehonavo",
+    "phone_number": "8583037615",
+    "address": "Serampore",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://google.com",
+    "language": "French-IN"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:42 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "e364c71d279194ad4ea211d19fb6bd8a",
+    "scope": "APP",
+    "reference": "1c5d8c5467e47c65bd12db4853abb1751c5d8c5467e47c65bd12db4853abb175",
+    "id": "1c5d8c5467e47c65bd12db4853abb175"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "e364c71d279194ad4ea211d19fb6bd8a"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:43 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e364c71d279194ad4ea211d19fb6bd8a
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=e364c71d279194ad4ea211d19fb6bd8a
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Snehonavo",
+    "phone_number": "8583037615",
+    "address": "Serampore",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://google.com",
+    "language": "French-IN"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 01 Aug 2025 19:32:46 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 67
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Get operation failed, looks like place_id  doesn't exists"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383492,
+        "lng": 33.427364
+    },
+    "accuracy": 50,
+    "name": "Buban",
+    "phone_number": "8697437229",
+    "address": "Rishra",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://youtube.com",
+    "language": "Russian-IN"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:49 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ed6e1a6df2a32ca45c6689268df9c0a1",
+    "scope": "APP",
+    "reference": "fb7d89e9a9caddfa031ea196629ea023fb7d89e9a9caddfa031ea196629ea023",
+    "id": "fb7d89e9a9caddfa031ea196629ea023"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "ed6e1a6df2a32ca45c6689268df9c0a1"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:49 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ed6e1a6df2a32ca45c6689268df9c0a1
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ed6e1a6df2a32ca45c6689268df9c0a1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383492,
+        "lng": 33.427364
+    },
+    "accuracy": 50,
+    "name": "Buban",
+    "phone_number": "8697437229",
+    "address": "Rishra",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://youtube.com",
+    "language": "Russian-IN"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 01 Aug 2025 19:32:52 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 67
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Get operation failed, looks like place_id  doesn't exists"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383492,
+        "lng": 33.427364
+    },
+    "accuracy": 50,
+    "name": "Rohan",
+    "phone_number": "8697437329",
+    "address": "Mahesh",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://youtube.com",
+    "language": "Spanish-IN"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:53 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "84f92aa80604d1015397a1de2e1545fb",
+    "scope": "APP",
+    "reference": "f6574c5ed5541289b0325fefc84bd4fcf6574c5ed5541289b0325fefc84bd4fc",
+    "id": "f6574c5ed5541289b0325fefc84bd4fc"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "84f92aa80604d1015397a1de2e1545fb"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:54 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=84f92aa80604d1015397a1de2e1545fb
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=84f92aa80604d1015397a1de2e1545fb
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383492,
+        "lng": 33.427364
+    },
+    "accuracy": 50,
+    "name": "Rohan",
+    "phone_number": "8697437329",
+    "address": "Mahesh",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://youtube.com",
+    "language": "Spanish-IN"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 01 Aug 2025 19:32:57 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 67
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Get operation failed, looks like place_id  doesn't exists"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.323492,
+        "lng": 33.426364
+    },
+    "accuracy": 50,
+    "name": "Tanmoy",
+    "phone_number": "8697437129",
+    "address": "Kolkata",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://youtube.com",
+    "language": "Germany-IN"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:59 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "761fa25b18ab92f67248dac373770267",
+    "scope": "APP",
+    "reference": "daf10f32dfea93973a3aca67c1b62962daf10f32dfea93973a3aca67c1b62962",
+    "id": "daf10f32dfea93973a3aca67c1b62962"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "761fa25b18ab92f67248dac373770267"
+}
+HTTP/1.1 200 OK
+Date: Fri, 01 Aug 2025 19:32:59 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=761fa25b18ab92f67248dac373770267
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=761fa25b18ab92f67248dac373770267
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.323492,
+        "lng": 33.426364
+    },
+    "accuracy": 50,
+    "name": "Tanmoy",
+    "phone_number": "8697437129",
+    "address": "Kolkata",
+    "types": [
+        "shoe park",
+        "shoes"
+    ],
+    "website": "http://youtube.com",
+    "language": "Germany-IN"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 01 Aug 2025 19:33:03 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 67
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Get operation failed, looks like place_id  doesn't exists"
+}
